@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveen.findme1.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:background="@drawable/friends1"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#17202A"
+        android:id="@+id/e1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="120dp"
+        android:textColorHint="#17202A"
+        android:id="@+id/e2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="90dp"
+        android:background="#3498DB"
+        android:textStyle="bold"
+        android:text="signup"
+        android:id="@+id/b1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textColorHint="#17202A"
+        android:hint="Your Unique UserId"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="90dp"
+        android:textSize="9.5pt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:id="@+id/e3"
+        android:hint="User Id (remember this*)"
+        android:textColorHint="#17202A"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_marginTop="420dp"
+        android:background="#3498DB"
+        android:id="@+id/b2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
